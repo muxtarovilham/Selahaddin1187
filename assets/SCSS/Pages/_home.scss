@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  .sec1{
+    width: 100%;
+    height: 600px;
+    background-color: #00798A;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+h1{
+color: white;
+font-size: 80px;
+    font-weight: 600;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 5px 20px 10px 20px
+}
+h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 20px 20px 20px
+}
+}
+.download{
+    background-color: #FC4065;
+    width: 22%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        font-size: 18px;
+        line-height: 1.33;
+        color: white;
+        text-decoration: none;
+    }
+ }
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.ourservices{
+    padding-left: 9%;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+}
+ .sec2{
+    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png);
+    h1{
+        line-height: 50px;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 50px 20px 5px 20px;
+    text-transform: uppercase;
+    color: rgba(0,121,138,1);
+    }
+ }
+
+.words{
+    h2{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    h3{
+        font-size: 15px;
+        font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+    }
+}
+.image1{
+    padding-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: move 1s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(21px); 
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: #00798A;
+    display: flex;
+    justify-content: center;
+    img{
+        width: 86px;
+        height: 82px;
+        color: white;
+    }
+    h4{
+        color: white;
+        padding-top: 25px;
+    line-height: 40px;
+    padding-bottom: 0;
+    font-size: 22px;
+    font-weight: 600;
+    }
+    h2{
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+    p{
+        color: white;
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+}
+#row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.words1{
+    width: 80%;
+    h5{
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 50px;
+        padding-bottom: 15px;
+    }
+    h6{
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 300;
+    }
+}
+.words2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bluesec{
+    width: 100%;
+    height: 235px;
+    background-color: #00798A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.words3{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.words4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.bluesection{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    h1{
+        font-size: 60px;
+        line-height: 30px;
+        font-weight: 600;
+        color: wh;
+    }
+    h2{
+        font-size: 22px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+}
+.sec3{
+    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png);
+}
+
+
+
+.ourplans{
+    padding-left: 9%;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    h1{
+        line-height: 50px;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 50px 20px 5px 20px;
+    text-transform: uppercase;
+    color: rgba(0,121,138,1);
+    }
+}
+.table1{
+    background-color: #D8D8D8;
+    width: 25%;
+    height: 550px;
+}
+.col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.basic{
+    width: 100%;
+    height: 7%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: white;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+}
+.about{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    h1{
+        color: #858585;
+font-size: 25px;
+line-height: 36px;
+font-weight: 400;
+    }
+}
+.sale{
+    width: 100%;
+    height: 18%;
+    background-color: #1F8A63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        color: white;
+    }
+}
+.read{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#read1{
+    background-color: #c9504c;
+}
+#read1:hover{
+    background-color: #d22525;
+}
+#read2{
+    background-color: #428BCA;
+}
+#read2:hover{
+    background-color: #0c64b2;
+}
+#read3{
+    background-color: #5CB85C;
+}
+#read3:hover{
+    background-color: #319031;
+}
+
+.readmore{
+    width: 100%;
+    height: 40%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    h1{
+        color: white;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+}
+.readmore:hover{
+    background-color: #d13732;
+}
+#row2{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4{
+    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png);
+
+}
+.bluesec2{
+    width: 100%;
+    height: 240px;
+    background-color: #00798A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 60px;
+        line-height: 30px;
+        font-weight: 600;
+        color: white;
+    }
+    h2{
+        font-size: 22px;
+        line-height: 40px;
+        font-weight: 600;
+        color: white;
+    }
+}
+.blue{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactus{
+    padding-left: 9%;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    h1{
+        line-height: 50px;
+    font-weight: 600;
+    font-size: 40px;
+    padding: 50px 20px 5px 20px;
+    text-transform: uppercase;
+    color: rgba(0,121,138,1);
+    }
+}
+.sec5{
+    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png);
+
+}
+#input1{
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 46%;
+    height: 34px;
+    background-color: transparent;
+}
+#input2{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border-radius: 4px;
+    width: 46%;
+    height: 34px;
+}
+.inputsec{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.textareadiv{
+    padding-top: 10px;
+}
+#textarea1{
+    background-color: transparent;
+        width: 100%;
+        height: 74px;
+        border: 1px solid #ccc;
+}
+.address{
+    width: 100%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+
+}
+.divs{
+    display: flex;
+    h1{
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    h2{
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 300;
+    }
+}
+.inputs{
+    width: 100%;
+    height: 175px;
+    display: block;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    button{
+        width: 26%;
+        height: 28px;
+        background-color: #428BCA;
+        color: white;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+
+    }
+    button:hover{
+        background-color: #1672c3;
+    }
+}
+.sec6{
+    background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page201/peterna/assets/img/sativa.png);
+    width: 100%;
+    height: 270px;
+}
+.blackline{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    h1{
+        padding-right: 30px;
+        color: white;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}
+.ad{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    a{
+        width: 60%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 20px;
+    }
+}
+.image2{
+        cursor: pointer;
+        width: 100%;
+        height: 120px;
+}
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 661px) {
+    .bluesection{
+        h1{
+            font-size: 21px;
+        }
+        h2{
+            font-size: 14px;
+        }
+    }
+    .bluesec2{
+        h1{
+            font-size: 21px;
+        }
+        h2{
+            font-size: 14px;
+        }
+    }
+    #row2{
+        width: 100%;
+        height: 1750px;
+    }
+
+.image2{
+    width: 100%;
+    height: 60px;
+}
+.download{
+    width: 22%;
+    height: 7%;
+
+    a{
+        font-size: 12px;
+        color: white;
+        text-decoration: none;
+    }
+ }
+ .sec1{
+    h1{
+        font-size: 33px;
+    }
+    h2{
+        font-size: 21px;
+    }
+    h3{
+        font-size: 14px;
+    }
+}
+}
+@media screen and (min-width: 661px) and (max-width: 992px) {
+    .bluesection{
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 24px;
+        }
+    }
+    .bluesec2{
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 21px;
+        }
+        
+    }
+    #row2{
+        width: 100%;
+        height: 1750px;
+    }
+    .sec1{
+        h1{
+            font-size: 50px;
+        }
+        h2{
+            font-size: 28px;
+        }
+        h3{
+            font-size: 14px;
+        }
+    }
+}
